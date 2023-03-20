@@ -11,6 +11,36 @@
 		085B96BF21A9B37C00E5E22F /* LogEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085B96BE21A9B37C00E5E22F /* LogEvent.swift */; };
 		0C42F31B1FCF86320051309C /* HangTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C42F3191FCF86240051309C /* HangTests.swift */; };
 		0CC3AF2B1FCF84F7000E98C9 /* hang.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC3AF2A1FCF84F7000E98C9 /* hang.swift */; };
+		3123A29C29C8F04200C28F03 /* PromiseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 63B0AC761D595E6300FA21D9 /* PromiseKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3123A29D29C8F04200C28F03 /* fwd.h in Headers */ = {isa = PBXBuildFile; fileRef = 634AAD2A1EAE517C00B17855 /* fwd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3123A29E29C8F04200C28F03 /* AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = 63B0AC631D595E6300FA21D9 /* AnyPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3123A29F29C8F04200C28F03 /* AnyPromise+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 63B0AC661D595E6300FA21D9 /* AnyPromise+Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3123A2A129C8F04200C28F03 /* race.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636A29241F1C3089001229C2 /* race.swift */; };
+		3123A2A229C8F04200C28F03 /* when.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B0AC7D1D595E6300FA21D9 /* when.swift */; };
+		3123A2A329C8F04200C28F03 /* Resolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636A29261F1C3927001229C2 /* Resolver.swift */; };
+		3123A2A429C8F04200C28F03 /* when.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B0AC7C1D595E6300FA21D9 /* when.m */; };
+		3123A2A529C8F04200C28F03 /* race.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D9B2EE203385FD0075C00B /* race.m */; };
+		3123A2A629C8F04200C28F03 /* after.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B0AC621D595E6300FA21D9 /* after.swift */; };
+		3123A2A729C8F04200C28F03 /* CustomStringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B18AEB1F2D205C00B79E37 /* CustomStringConvertible.swift */; };
+		3123A2A829C8F04200C28F03 /* LogEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085B96BE21A9B37C00E5E22F /* LogEvent.swift */; };
+		3123A2A929C8F04200C28F03 /* Async.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4170F8287D88C800A3B4B5 /* Async.swift */; };
+		3123A2AA29C8F04200C28F03 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6330B5E01F2E991200D60528 /* Configuration.swift */; };
+		3123A2AB29C8F04200C28F03 /* firstly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B912A91F1D7B1300D49110 /* firstly.swift */; };
+		3123A2AC29C8F04200C28F03 /* Thenable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636A29201F1C1716001229C2 /* Thenable.swift */; };
+		3123A2AD29C8F04200C28F03 /* Catchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632FBBE21F33B273008F8FBB /* Catchable.swift */; };
+		3123A2AE29C8F04200C28F03 /* dispatch_promise.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B0AC671D595E6300FA21D9 /* dispatch_promise.m */; };
+		3123A2AF29C8F04200C28F03 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636A291E1F1C16FF001229C2 /* Box.swift */; };
+		3123A2B029C8F04200C28F03 /* AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B0AC641D595E6300FA21D9 /* AnyPromise.m */; };
+		3123A2B129C8F04200C28F03 /* Guarantee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636A29221F1C17A6001229C2 /* Guarantee.swift */; };
+		3123A2B229C8F04200C28F03 /* Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636A29191F1C156B001229C2 /* Promise.swift */; };
+		3123A2B329C8F04200C28F03 /* join.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B0AC6D1D595E6300FA21D9 /* join.m */; };
+		3123A2B429C8F04200C28F03 /* hang.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B0AC6B1D595E6300FA21D9 /* hang.m */; };
+		3123A2B529C8F04200C28F03 /* AnyPromise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B0AC651D595E6300FA21D9 /* AnyPromise.swift */; };
+		3123A2B629C8F04200C28F03 /* Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC774262991495C00803027 /* Combine.swift */; };
+		3123A2B729C8F04200C28F03 /* Deprecations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D9B2F020338D5D0075C00B /* Deprecations.swift */; };
+		3123A2B829C8F04200C28F03 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B0AC691D595E6300FA21D9 /* Error.swift */; };
+		3123A2B929C8F04200C28F03 /* hang.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC3AF2A1FCF84F7000E98C9 /* hang.swift */; };
+		3123A2BA29C8F04200C28F03 /* after.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B0AC611D595E6300FA21D9 /* after.m */; };
 		49A5584D1DC5185900E4D01B /* ResolverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A5584B1DC5172F00E4D01B /* ResolverTests.swift */; };
 		630A8056203CEF6800D25F23 /* AnyPromiseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 630A8051203CEF6800D25F23 /* AnyPromiseTests.m */; settings = {COMPILER_FLAGS = "-fobjc-arc-exceptions"; }; };
 		630A8057203CEF6800D25F23 /* PMKManifoldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 630A8052203CEF6800D25F23 /* PMKManifoldTests.m */; };
@@ -148,6 +178,8 @@
 		085B96BE21A9B37C00E5E22F /* LogEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LogEvent.swift; path = Sources/LogEvent.swift; sourceTree = "<group>"; };
 		0C42F3191FCF86240051309C /* HangTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HangTests.swift; sourceTree = "<group>"; };
 		0CC3AF2A1FCF84F7000E98C9 /* hang.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = hang.swift; path = Sources/hang.swift; sourceTree = "<group>"; };
+		3123A2BF29C8F04200C28F03 /* ArculusPromiseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ArculusPromiseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3123A2C029C8F04200C28F03 /* PromiseKit copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "PromiseKit copy-Info.plist"; path = "/Users/sorelli/Arculus/ArculusPromiseKit/PromiseKit copy-Info.plist"; sourceTree = "<absolute>"; };
 		49A5584B1DC5172F00E4D01B /* ResolverTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResolverTests.swift; sourceTree = "<group>"; };
 		630019221D596292003B4E30 /* PMKCoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PMKCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		630A8051203CEF6800D25F23 /* AnyPromiseTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnyPromiseTests.m; sourceTree = "<group>"; };
@@ -242,6 +274,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3123A2BB29C8F04200C28F03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		630019181D596292003B4E30 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -425,6 +464,7 @@
 				63B912AB1F1E657400D49110 /* Sources.objc */,
 				635D64061D59630200BC0AF5 /* Tests */,
 				635893991D5BE51700F14B55 /* … */,
+				3123A2C029C8F04200C28F03 /* PromiseKit copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -437,6 +477,7 @@
 				6314113C1D59795700E24B9E /* PMKBridgeTests.xctest */,
 				633027EA203CC0060037E136 /* PMKDeprecatedTests.xctest */,
 				C0244E622047A6CB00ACB4AC /* PMKJSA+Tests.xctest */,
+				3123A2BF29C8F04200C28F03 /* ArculusPromiseKit.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -512,6 +553,17 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		3123A29B29C8F04200C28F03 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3123A29C29C8F04200C28F03 /* PromiseKit.h in Headers */,
+				3123A29D29C8F04200C28F03 /* fwd.h in Headers */,
+				3123A29E29C8F04200C28F03 /* AnyPromise.h in Headers */,
+				3123A29F29C8F04200C28F03 /* AnyPromise+Private.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		63B0AC541D595E1B00FA21D9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -526,6 +578,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		3123A29A29C8F04200C28F03 /* ArculusPromiseKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3123A2BC29C8F04200C28F03 /* Build configuration list for PBXNativeTarget "ArculusPromiseKit" */;
+			buildPhases = (
+				3123A29B29C8F04200C28F03 /* Headers */,
+				3123A2A029C8F04200C28F03 /* Sources */,
+				3123A2BB29C8F04200C28F03 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArculusPromiseKit;
+			productName = PromiseKit;
+			productReference = 3123A2BF29C8F04200C28F03 /* ArculusPromiseKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		630019011D596292003B4E30 /* PMKCoreTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6300191F1D596292003B4E30 /* Build configuration list for PBXNativeTarget "PMKCoreTests" */;
@@ -678,11 +747,45 @@
 				630019011D596292003B4E30 /* PMKCoreTests */,
 				633027E0203CC0060037E136 /* PMKDeprecatedTests */,
 				C0244E4E2047A6CB00ACB4AC /* PMKJSA+Tests */,
+				3123A29A29C8F04200C28F03 /* ArculusPromiseKit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3123A2A029C8F04200C28F03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3123A2A129C8F04200C28F03 /* race.swift in Sources */,
+				3123A2A229C8F04200C28F03 /* when.swift in Sources */,
+				3123A2A329C8F04200C28F03 /* Resolver.swift in Sources */,
+				3123A2A429C8F04200C28F03 /* when.m in Sources */,
+				3123A2A529C8F04200C28F03 /* race.m in Sources */,
+				3123A2A629C8F04200C28F03 /* after.swift in Sources */,
+				3123A2A729C8F04200C28F03 /* CustomStringConvertible.swift in Sources */,
+				3123A2A829C8F04200C28F03 /* LogEvent.swift in Sources */,
+				3123A2A929C8F04200C28F03 /* Async.swift in Sources */,
+				3123A2AA29C8F04200C28F03 /* Configuration.swift in Sources */,
+				3123A2AB29C8F04200C28F03 /* firstly.swift in Sources */,
+				3123A2AC29C8F04200C28F03 /* Thenable.swift in Sources */,
+				3123A2AD29C8F04200C28F03 /* Catchable.swift in Sources */,
+				3123A2AE29C8F04200C28F03 /* dispatch_promise.m in Sources */,
+				3123A2AF29C8F04200C28F03 /* Box.swift in Sources */,
+				3123A2B029C8F04200C28F03 /* AnyPromise.m in Sources */,
+				3123A2B129C8F04200C28F03 /* Guarantee.swift in Sources */,
+				3123A2B229C8F04200C28F03 /* Promise.swift in Sources */,
+				3123A2B329C8F04200C28F03 /* join.m in Sources */,
+				3123A2B429C8F04200C28F03 /* hang.m in Sources */,
+				3123A2B529C8F04200C28F03 /* AnyPromise.swift in Sources */,
+				3123A2B629C8F04200C28F03 /* Combine.swift in Sources */,
+				3123A2B729C8F04200C28F03 /* Deprecations.swift in Sources */,
+				3123A2B829C8F04200C28F03 /* Error.swift in Sources */,
+				3123A2B929C8F04200C28F03 /* hang.swift in Sources */,
+				3123A2BA29C8F04200C28F03 /* after.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		630019021D596292003B4E30 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -831,6 +934,120 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		3123A2BD29C8F04200C28F03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_WARN_ASSIGN_ENUM = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_CXX0X_EXTENSIONS = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_EXPLICIT_OWNERSHIP_TYPE = YES;
+				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS = YES;
+				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = YES;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES_AGGRESSIVE;
+				CLANG_WARN__EXIT_TIME_DESTRUCTORS = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_TESTABILITY = YES;
+				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
+				GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_STRICT_SELECTOR_MATCH = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "PromiseKit copy-Info.plist";
+				LD_DYLIB_INSTALL_NAME = "$(DYLIB_INSTALL_NAME_BASE:standardizepath)/$(EXECUTABLE_PATH)";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_PACKAGE_TYPE = FMWK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_TREAT_WARNINGS_AS_ERRORS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2,3,4";
+			};
+			name = Debug;
+		};
+		3123A2BE29C8F04200C28F03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				BITCODE_GENERATION_MODE = bitcode;
+				CLANG_WARN_ASSIGN_ENUM = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_CXX0X_EXTENSIONS = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_EXPLICIT_OWNERSHIP_TYPE = YES;
+				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS = YES;
+				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = YES;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES_AGGRESSIVE;
+				CLANG_WARN__EXIT_TIME_DESTRUCTORS = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
+				GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_STRICT_SELECTOR_MATCH = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "PromiseKit copy-Info.plist";
+				LD_DYLIB_INSTALL_NAME = "$(DYLIB_INSTALL_NAME_BASE:standardizepath)/$(EXECUTABLE_PATH)";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_PACKAGE_TYPE = FMWK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_TREAT_WARNINGS_AS_ERRORS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2,3,4";
+			};
+			name = Release;
+		};
 		630019201D596292003B4E30 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1181,6 +1398,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3123A2BC29C8F04200C28F03 /* Build configuration list for PBXNativeTarget "ArculusPromiseKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3123A2BD29C8F04200C28F03 /* Debug */,
+				3123A2BE29C8F04200C28F03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6300191F1D596292003B4E30 /* Build configuration list for PBXNativeTarget "PMKCoreTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
