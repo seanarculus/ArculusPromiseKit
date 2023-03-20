@@ -1,6 +1,6 @@
 #!/usr/bin/swift sh
 import Foundation
-import PromiseKit  // @mxcl ~> 6.5 
+import ArculusPromiseKit  // @mxcl ~> 6.5 
 import Swifter     // @mattdonnelly == b27a89
 let swifter = Swifter(
 	consumerKey: "FILL",

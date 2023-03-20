@@ -7,7 +7,7 @@
 
 import Foundation
 import JavaScriptCore
-import PromiseKit
+import ArculusPromiseKit
 
 enum JSAdapter {
     

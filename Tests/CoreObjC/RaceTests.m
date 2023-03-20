@@ -1,5 +1,5 @@
 @import Foundation;
-@import PromiseKit;
+@import ArculusPromiseKit;
 @import XCTest;
 #define PMKTestErrorDomain @"PMKTestErrorDomain"
 

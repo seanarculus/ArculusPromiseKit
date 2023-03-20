@@ -5,7 +5,7 @@ state machine:
 
 ```swift
 import Foundation
-import PromiseKit
+import ArculusPromiseKit
 
 /**
  * Small (10 images)

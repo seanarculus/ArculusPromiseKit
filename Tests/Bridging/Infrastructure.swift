@@ -1,4 +1,4 @@
-import PromiseKit
+import ArculusPromiseKit
 
 // for BridgingTests.m
 @objc(PMKPromiseBridgeHelper) class PromiseBridgeHelper: NSObject {

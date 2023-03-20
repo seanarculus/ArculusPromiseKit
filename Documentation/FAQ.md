@@ -358,7 +358,7 @@ import Foundation
 import HeliumLogger
 import Kitura
 import LoggerAPI
-import PromiseKit
+import ArculusPromiseKit
 
 HeliumLogger.use(.info)
 

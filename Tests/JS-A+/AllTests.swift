@@ -8,7 +8,7 @@
 #if swift(>=3.2)
 
 import XCTest
-import PromiseKit
+import ArculusPromiseKit
 import JavaScriptCore
 
 class AllTests: XCTestCase {

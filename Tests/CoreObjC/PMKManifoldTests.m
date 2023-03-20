@@ -1,4 +1,4 @@
-@import PromiseKit;
+@import ArculusPromiseKit;
 @import XCTest;
 
 @interface PMKManifoldTests: XCTestCase @end @implementation PMKManifoldTests

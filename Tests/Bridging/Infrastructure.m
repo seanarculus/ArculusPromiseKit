@@ -1,5 +1,5 @@
 @import Foundation;
-@import PromiseKit;
+@import ArculusPromiseKit;
 #import "Infrastructure.h"
 
 AnyPromise *PMKDummyAnyPromise_YES() {

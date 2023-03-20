@@ -1,4 +1,4 @@
-@import PromiseKit;
+@import ArculusPromiseKit;
 @import XCTest;
 
 @interface HangTests: XCTestCase @end @implementation HangTests
